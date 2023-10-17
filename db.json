@@ -88,7 +88,7 @@
           {
             "name":"Bass",
             "numReq": 1,
-            "numReg": 0,
+            "numReg": 1,
             "who": [{"name":"jj"}]
           },
           {
@@ -149,7 +149,7 @@
           },
           {
             "name":"Keyboard",
-            "numReq": 2,
+            "numReq": 1,
             "numReg": 1,
             "who": [{"name":"ss"}]
           },
