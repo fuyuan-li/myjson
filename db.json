@@ -2,7 +2,8 @@
   "posts": [
     { "id": 1, "title": "Post 1" },
     { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "id": 3, "title": "Post 3" },
+    { "id": 4, "title": "Post 4" }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
@@ -58,5 +59,95 @@
             "bs": "synergize scalable supply-chains"
         }
     }
+  ],
+  "playlist":[
+    {
+      "id": 1,
+      "name": "YSH",
+      "status": "Ready",
+      "progress": 1.0,
+      "roles": [
+        {
+          "name":"Vocal",
+          "numReq": 1,
+          "numReg": 1,
+          "who": [{"user":"yyd"}],
+        },
+        {
+          "name":"Guitar",
+          "numReq": 1,
+          "numReg": 1,
+          "who": [{"user":"hx"}],
+        },
+        {
+          "name":"Keyboard",
+          "numReq": 1,
+          "numReg": 2,
+          "who": [{"user":"enya"}, {"user":"ss"}],
+        },
+        {
+          "name":"Bass",
+          "numReq": 1,
+          "numReg": 1,
+          "who": [{"user":"jj"}],
+        },
+        {
+          "name":"Violin",
+          "numReq": 1,
+          "numReg": 1,
+          "who": [{"user":"xx"}],
+        },
+        {
+          "name":"Drum",
+          "numReq": 1,
+          "numReg": 1,
+          "who": [{"user":"xxb"}],
+        },
+      ]
+    },
+    {
+      "id": 2,
+      "name": "YinWeiWoAiNi",
+      "status": "In Progress",
+      "progress": 0.3,
+      "roles": [
+        {
+          "name":"Vocal",
+          "numReq": 1,
+          "numReg": 1,
+          "who": [{"user":"yyd"}],
+        },
+        {
+          "name":"Guitar",
+          "numReq": 1,
+          "numReg": 0,
+          "who": [],
+        },
+        {
+          "name":"Keyboard",
+          "numReq": 1,
+          "numReg": 1,
+          "who": [{"user":"ss"}],
+        },
+        {
+          "name":"Bass",
+          "numReq": 1,
+          "numReg": 0,
+          "who": [],
+        },
+        {
+          "name":"Violin",
+          "numReq": 1,
+          "numReg": 0,
+          "who": [],
+        },
+        {
+          "name":"Drum",
+          "numReq": 1,
+          "numReg": 0,
+          "who": [],
+        },
+      ]
+    },
   ]
 }
