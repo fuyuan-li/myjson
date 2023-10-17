@@ -1,153 +1,153 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" },
-    { "id": 4, "title": "Post 4" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "users": [
-    {
+    "posts": [
+      { "id": 1, "title": "Post 1" },
+      { "id": 2, "title": "Post 2" },
+      { "id": 3, "title": "Post 3" },
+      { "id": 4, "title": "Post 4" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 },
+      { "id": 2, "body": "some comment", "postId": 1 }
+    ],
+    "profile": {
+      "name": "typicode"
+    },
+    "users": [
+      {
+          "id": 1,
+          "name": "Leanne Graham",
+          "username": "Bret",
+          "email": "Sincere@april.biz",
+          "address": {
+              "street": "Kulas Light",
+              "suite": "Apt. 556",
+              "city": "Gwenborough",
+              "zipcode": "92998-3874",
+              "geo": {
+                  "lat": "-37.3159",
+                  "lng": "81.1496"
+              }
+          },
+          "phone": "1-770-736-8031 x56442",
+          "website": "hildegard.org",
+          "company": {
+              "name": "Romaguera-Crona",
+              "catchPhrase": "Multi-layered client-server neural-net",
+              "bs": "harness real-time e-markets"
+          }
+      },
+      {
+          "id": 2,
+          "name": "Ervin Howell",
+          "username": "Antonette",
+          "email": "Shanna@melissa.tv",
+          "address": {
+              "street": "Victor Plains",
+              "suite": "Suite 879",
+              "city": "Wisokyburgh",
+              "zipcode": "90566-7771",
+              "geo": {
+                  "lat": "-43.9509",
+                  "lng": "-34.4618"
+              }
+          },
+          "phone": "010-692-6593 x09125",
+          "website": "anastasia.net",
+          "company": {
+              "name": "Deckow-Crist",
+              "catchPhrase": "Proactive didactic contingency",
+              "bs": "synergize scalable supply-chains"
+          }
+      }
+    ],
+    "playlist":[
+      {
         "id": 1,
-        "name": "Leanne Graham",
-        "username": "Bret",
-        "email": "Sincere@april.biz",
-        "address": {
-            "street": "Kulas Light",
-            "suite": "Apt. 556",
-            "city": "Gwenborough",
-            "zipcode": "92998-3874",
-            "geo": {
-                "lat": "-37.3159",
-                "lng": "81.1496"
-            }
-        },
-        "phone": "1-770-736-8031 x56442",
-        "website": "hildegard.org",
-        "company": {
-            "name": "Romaguera-Crona",
-            "catchPhrase": "Multi-layered client-server neural-net",
-            "bs": "harness real-time e-markets"
-        }
-    },
-    {
+        "name": "YSH",
+        "status": "Ready",
+        "progress": 1.0,
+        "roles": [
+          {
+            "name":"Vocal",
+            "numReq": 1,
+            "numReg": 1,
+            "who": [{"user":"yyd"}]
+          },
+          {
+            "name":"Guitar",
+            "numReq": 1,
+            "numReg": 1,
+            "who": [{"user":"hx"}]
+          },
+          {
+            "name":"Keyboard",
+            "numReq": 1,
+            "numReg": 2,
+            "who": [{"user":"enya"}, {"user":"ss"}]
+          },
+          {
+            "name":"Bass",
+            "numReq": 1,
+            "numReg": 1,
+            "who": [{"user":"jj"}]
+          },
+          {
+            "name":"Violin",
+            "numReq": 1,
+            "numReg": 1,
+            "who": [{"user":"xx"}]
+          },
+          {
+            "name":"Drum",
+            "numReq": 1,
+            "numReg": 1,
+            "who": [{"user":"xxb"}]
+          }
+        ]
+      },
+      {
         "id": 2,
-        "name": "Ervin Howell",
-        "username": "Antonette",
-        "email": "Shanna@melissa.tv",
-        "address": {
-            "street": "Victor Plains",
-            "suite": "Suite 879",
-            "city": "Wisokyburgh",
-            "zipcode": "90566-7771",
-            "geo": {
-                "lat": "-43.9509",
-                "lng": "-34.4618"
-            }
-        },
-        "phone": "010-692-6593 x09125",
-        "website": "anastasia.net",
-        "company": {
-            "name": "Deckow-Crist",
-            "catchPhrase": "Proactive didactic contingency",
-            "bs": "synergize scalable supply-chains"
-        }
-    }
-  ],
-  "playlist":[
-    {
-      "id": 1,
-      "name": "YSH",
-      "status": "Ready",
-      "progress": 1.0,
-      "roles": [
-        {
-          "name":"Vocal",
-          "numReq": 1,
-          "numReg": 1,
-          "who": [{"user":"yyd"}],
-        },
-        {
-          "name":"Guitar",
-          "numReq": 1,
-          "numReg": 1,
-          "who": [{"user":"hx"}],
-        },
-        {
-          "name":"Keyboard",
-          "numReq": 1,
-          "numReg": 2,
-          "who": [{"user":"enya"}, {"user":"ss"}],
-        },
-        {
-          "name":"Bass",
-          "numReq": 1,
-          "numReg": 1,
-          "who": [{"user":"jj"}],
-        },
-        {
-          "name":"Violin",
-          "numReq": 1,
-          "numReg": 1,
-          "who": [{"user":"xx"}],
-        },
-        {
-          "name":"Drum",
-          "numReq": 1,
-          "numReg": 1,
-          "who": [{"user":"xxb"}],
-        },
-      ]
-    },
-    {
-      "id": 2,
-      "name": "YinWeiWoAiNi",
-      "status": "In Progress",
-      "progress": 0.3,
-      "roles": [
-        {
-          "name":"Vocal",
-          "numReq": 1,
-          "numReg": 1,
-          "who": [{"user":"yyd"}],
-        },
-        {
-          "name":"Guitar",
-          "numReq": 1,
-          "numReg": 0,
-          "who": [],
-        },
-        {
-          "name":"Keyboard",
-          "numReq": 1,
-          "numReg": 1,
-          "who": [{"user":"ss"}],
-        },
-        {
-          "name":"Bass",
-          "numReq": 1,
-          "numReg": 0,
-          "who": [],
-        },
-        {
-          "name":"Violin",
-          "numReq": 1,
-          "numReg": 0,
-          "who": [],
-        },
-        {
-          "name":"Drum",
-          "numReq": 1,
-          "numReg": 0,
-          "who": [],
-        },
-      ]
-    },
-  ]
-}
+        "name": "YinWeiWoAiNi",
+        "status": "In Progress",
+        "progress": 0.3,
+        "roles": [
+          {
+            "name":"Vocal",
+            "numReq": 1,
+            "numReg": 1,
+            "who": [{"user":"yyd"}]
+          },
+          {
+            "name":"Guitar",
+            "numReq": 1,
+            "numReg": 0,
+            "who": []
+          },
+          {
+            "name":"Keyboard",
+            "numReq": 1,
+            "numReg": 1,
+            "who": [{"user":"ss"}]
+          },
+          {
+            "name":"Bass",
+            "numReq": 1,
+            "numReg": 0,
+            "who": []
+          },
+          {
+            "name":"Violin",
+            "numReq": 1,
+            "numReg": 0,
+            "who": []
+          },
+          {
+            "name":"Drum",
+            "numReq": 1,
+            "numReg": 0,
+            "who": []
+          }
+        ]
+      }
+    ]
+  }
