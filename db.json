@@ -15,55 +15,17 @@
     "users": [
       {
           "id": 1,
-          "name": "Leanne Graham",
-          "username": "Bret",
-          "email": "Sincere@april.biz",
-          "address": {
-              "street": "Kulas Light",
-              "suite": "Apt. 556",
-              "city": "Gwenborough",
-              "zipcode": "92998-3874",
-              "geo": {
-                  "lat": "-37.3159",
-                  "lng": "81.1496"
-              }
-          },
-          "phone": "1-770-736-8031 x56442",
-          "website": "hildegard.org",
-          "company": {
-              "name": "Romaguera-Crona",
-              "catchPhrase": "Multi-layered client-server neural-net",
-              "bs": "harness real-time e-markets"
-          }
+          "name": "Leanne Graham"
       },
       {
           "id": 2,
-          "name": "Ervin Howell",
-          "username": "Antonette",
-          "email": "Shanna@melissa.tv",
-          "address": {
-              "street": "Victor Plains",
-              "suite": "Suite 879",
-              "city": "Wisokyburgh",
-              "zipcode": "90566-7771",
-              "geo": {
-                  "lat": "-43.9509",
-                  "lng": "-34.4618"
-              }
-          },
-          "phone": "010-692-6593 x09125",
-          "website": "anastasia.net",
-          "company": {
-              "name": "Deckow-Crist",
-              "catchPhrase": "Proactive didactic contingency",
-              "bs": "synergize scalable supply-chains"
-          }
+          "name": "Ervin Howell"
       }
     ],
     "playlist":[
       {
         "id": 1,
-        "name": "YSH",
+        "name": "Ye Sheng Huo",
         "status": "Ready",
         "progress": 1.0,
         "roles": [
@@ -71,69 +33,63 @@
             "name":"Vocal",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"user":"yyd"}]
+            "who": [{"name":"yyd"}]
           },
           {
             "name":"Guitar",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"user":"hx"}]
+            "who": [{"name":"hx"}]
           },
           {
             "name":"Keyboard",
             "numReq": 1,
             "numReg": 2,
-            "who": [{"user":"enya"}, {"user":"ss"}]
+            "who": [{"name":"enya"}, {"name":"ss"}]
           },
           {
             "name":"Bass",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"user":"jj"}]
+            "who": [{"name":"jj"}]
           },
           {
             "name":"Violin",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"user":"xx"}]
+            "who": [{"name":"xx"}]
           },
           {
             "name":"Drum",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"user":"xxb"}]
+            "who": [{"name":"xxb"}]
           }
         ]
       },
       {
         "id": 2,
-        "name": "YinWeiWoAiNi",
+        "name": "Yin Wei I love you",
         "status": "In Progress",
-        "progress": 0.3,
+        "progress": 0.6,
         "roles": [
           {
             "name":"Vocal",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"user":"yyd"}]
-          },
-          {
-            "name":"Guitar",
-            "numReq": 1,
-            "numReg": 0,
-            "who": []
+            "who": [{"name":"yyd"}]
           },
           {
             "name":"Keyboard",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"user":"ss"}]
+            "who": [{"name":"ss"}]
           },
           {
             "name":"Bass",
             "numReq": 1,
             "numReg": 0,
-            "who": []
+            "who": [{"name":"jj"}]
           },
           {
             "name":"Violin",
@@ -148,6 +104,100 @@
             "who": []
           }
         ]
+      },
+      {
+        "id": 3,
+        "name": "San Sheng San Shi",
+        "status": "In Progress",
+        "progress": 0.45,
+        "roles": [
+          {
+            "name":"Vocal",
+            "numReq": 1,
+            "numReg": 0,
+            "who": []
+          },
+          {
+            "name":"Guitar",
+            "numReq": 1,
+            "numReg": 1,
+            "who": [{"name":"hx"}]
+          },
+          {
+            "name":"Clarinet",
+            "numReq": 1,
+            "numReg": 0,
+            "who": []
+          },
+          {
+            "name":"古筝",
+            "numReq": 1,
+            "numReg": 1,
+            "who": [{"name":"enya"}]
+          },
+          {
+            "name":"Drum",
+            "numReq": 1,
+            "numReg": 1,
+            "who": [{"name":"xxb"}]
+          },
+          {
+            "name":"Violin",
+            "numReq": 1,
+            "numReg": 1,
+            "who": [{"name":"xx"}]
+          },
+          {
+            "name":"Keyboard",
+            "numReq": 2,
+            "numReg": 1,
+            "who": [{"name":"ss"}]
+          },
+          {
+            "name":"Bass",
+            "numReq": 2,
+            "numReg": 1,
+            "who": [{"name":"jj"}]
+          }
+        ]
+      },
+      {
+          "id":4,
+          "name":"Gu Yong Zhe",
+          "status": "Proposed",
+          "progress": 0.2,
+          "roles":[
+              {
+                "name":"Bass",
+                "numReq": 1,
+                "numReg": 0,
+                "who": []
+              },
+              {
+                "name":"Lead Guitar",
+                "numReq": 1,
+                "numReg": 0,
+                "who": []
+              },
+              {
+                "name":"Rhythm Guitar",
+                "numReq": 1,
+                "numReg": 0,
+                "who": []
+              },
+              {
+                "name":"Drum",
+                "numReq": 1,
+                "numReg": 1,
+                "who": [{"name":"xxb"}]
+              },
+              {
+                "name":"Vocal",
+                "numReq": 1,
+                "numReg": 0,
+                "who": []
+              }
+          ]
       }
     ]
   }
