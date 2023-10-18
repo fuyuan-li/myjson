@@ -17,37 +17,37 @@
         {
             "id": 1,
             "name": "yyd",
-            "role": [{"name":"Vocal"}]
+            "skill": [{"name":"Vocal"}]
         },
         {
             "id": 2,
             "name": "hx",
-            "role": [{"name":"Guitar"}, {"name":"Lead Guitar"}, {"name":"Ryhthm Guitar"}, {"name":"Bass"}, {"name":"Drum"}]
+            "skill": [{"name":"Guitar"}, {"name":"Lead Guitar"}, {"name":"Ryhthm Guitar"}, {"name":"Bass"}, {"name":"Drum"}]
         },
         {
             "id": 3,
             "name": "enya",
-            "role": [{"name":"Keyboard"}, {"name":"古筝"}]
+            "skill": [{"name":"Keyboard"}, {"name":"古筝"}]
         },
         {
             "id": 4,
             "name": "ss",
-            "role": [{"name":"Keyboard"}, {"name":"Vocal"}]
+            "skill": [{"name":"Keyboard"}, {"name":"Vocal"}]
         },
         {
             "id": 5,
             "name": "jj",
-            "role": [{"name":"Bass"}, {"name":"Keyboard"}, {"name":"Ukulele"}, {"name":"Vocal"}]
+            "skill": [{"name":"Bass"}, {"name":"Keyboard"}, {"name":"Ukulele"}, {"name":"Vocal"}]
         },
         {
             "id": 6,
             "name": "xx",
-            "role": [{"name":"Violin"}, {"name":"Keyboard"}, {"name":"Vocal"}]
+            "skill": [{"name":"Violin"}, {"name":"Keyboard"}, {"name":"Vocal"}]
         },
         {
             "id": 7,
             "name": "xxb",
-            "role": [{"name":"Drum"}]
+            "skill": [{"name":"Drum"}]
         }
     ],
     "playlist":[
