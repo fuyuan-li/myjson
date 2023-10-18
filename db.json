@@ -16,12 +16,12 @@
       {
           "id": 1,
           "name": "yyd",
-          "role": ["Vocal"]
+          "role": [{"name":"Vocal"}]
       },
       {
           "id": 2,
           "name": "hx",
-          "role": ["Guitar", "Lead Guitar", "Ryhthm Guitar", "Bass", "Drum"]
+          "role": [{"name":"Guitar"}, {"name":"Lead Guitar"}, {"name":"Ryhthm Guitar"}, {"name":"Bass"}, {"name":"Drum"}]
       }
     ]
   }
