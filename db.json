@@ -15,12 +15,39 @@
     "users": [
       {
           "id": 1,
-          "name": "Leanne Graham"
+          "name": "yyd",
+          "role": ["Vocal"]
       },
       {
           "id": 2,
-          "name": "Ervin Howell"
-      }
+          "name": "hx",
+          "role": ["Guitar", "Lead Guitar", "Ryhthm Guitar", "Bass", "Drum"]
+      },
+      {
+          "id": 3,
+          "name": "enya",
+          "role": ["Keyboard", "古筝"]
+      },
+      {
+          "id": 4,
+          "name": "ss",
+          "role": ["Keyboard", "Vocal"]
+      },
+      {
+          "id": 5,
+          "name": "jj",
+          "role": ["Bass", "Keyboard", "Ukulele", "Vocal"]
+      },
+      {
+          "id": 6,
+          "name": "xx",
+          "role": ["Violin", "Keyboard", "Vocal"]
+      },
+      {
+          "id": 7,
+          "name": "xxb",
+          "role": ["Drum"]
+      },
     ],
     "playlist":[
       {
@@ -33,37 +60,37 @@
             "name":"Vocal",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"name":"yyd"}]
+            "who": [{"id":1, "name":"yyd"}]
           },
           {
             "name":"Guitar",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"name":"hx"}]
+            "who": [{"id":2, "name":"hx"}]
           },
           {
             "name":"Keyboard",
             "numReq": 1,
             "numReg": 2,
-            "who": [{"name":"enya"}, {"name":"ss"}]
+            "who": [{"id":3, "name":"enya"}, {"id":4, "name":"ss"}]
           },
           {
             "name":"Bass",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"name":"jj"}]
+            "who": [{"id":5, "name":"jj"}]
           },
           {
             "name":"Violin",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"name":"xx"}]
+            "who": [{"id":6, "name":"xx"}]
           },
           {
             "name":"Drum",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"name":"xxb"}]
+            "who": [{"id":7, "name":"xxb"}]
           }
         ]
       },
@@ -77,19 +104,19 @@
             "name":"Vocal",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"name":"yyd"}]
+            "who": [{"id":7, "name":"yyd"}]
           },
           {
             "name":"Keyboard",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"name":"ss"}]
+            "who": [{"id":2, "name":"ss"}]
           },
           {
             "name":"Bass",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"name":"jj"}]
+            "who": [{"id":5, "name":"jj"}]
           },
           {
             "name":"Violin",
@@ -121,7 +148,7 @@
             "name":"Guitar",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"name":"hx"}]
+            "who": [{"id":2, "name":"hx"}]
           },
           {
             "name":"Clarinet",
@@ -133,31 +160,31 @@
             "name":"古筝",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"name":"enya"}]
+            "who": [{"id":3, "name":"enya"}]
           },
           {
             "name":"Drum",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"name":"xxb"}]
+            "who": [{"id":7, "name":"xxb"}]
           },
           {
             "name":"Violin",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"name":"xx"}]
+            "who": [{"id":6, "name":"xx"}]
           },
           {
             "name":"Keyboard",
             "numReq": 1,
             "numReg": 1,
-            "who": [{"name":"ss"}]
+            "who": [{"id":4, "name":"ss"}]
           },
           {
             "name":"Bass",
             "numReq": 2,
             "numReg": 1,
-            "who": [{"name":"jj"}]
+            "who": [{"id":5, "name":"jj"}]
           }
         ]
       },
@@ -189,7 +216,7 @@
                 "name":"Drum",
                 "numReq": 1,
                 "numReg": 1,
-                "who": [{"name":"xxb"}]
+                "who": [{"id":7, "name":"xxb"}]
               },
               {
                 "name":"Vocal",
