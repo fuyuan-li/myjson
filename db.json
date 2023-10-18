@@ -17,6 +17,11 @@
           "id": 1,
           "name": "yyd",
           "role": ["Vocal"]
+      },
+      {
+          "id": 2,
+          "name": "hx",
+          "role": ["Guitar", "Lead Guitar", "Ryhthm Guitar", "Bass", "Drum"]
       }
     ]
   }
