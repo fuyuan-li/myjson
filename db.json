@@ -17,36 +17,6 @@
           "id": 1,
           "name": "yyd",
           "role": ["Vocal"]
-      },
-      {
-          "id": 2,
-          "name": "hx",
-          "role": ["Guitar", "Lead Guitar", "Ryhthm Guitar", "Bass", "Drum"]
-      },
-      {
-          "id": 3,
-          "name": "enya",
-          "role": ["Keyboard", "古筝"]
-      },
-      {
-          "id": 4,
-          "name": "ss",
-          "role": ["Keyboard", "Vocal"]
-      },
-      {
-          "id": 5,
-          "name": "jj",
-          "role": ["Bass", "Keyboard", "Ukulele", "Vocal"]
-      },
-      {
-          "id": 6,
-          "name": "xx",
-          "role": ["Violin", "Keyboard", "Vocal"]
-      },
-      {
-          "id": 7,
-          "name": "xxb",
-          "role": ["Drum"]
       }
     ],
     "playlist":[
